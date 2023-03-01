@@ -1,0 +1,30 @@
+
+
+.object{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: red;
+    border: 1px solid black;
+    animation-name:moveToRight ;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+   
+}
+
+/* keyframes */
+
+@keyframes moveToRight {
+    0% {top:0; left:0}
+    10%{top:0; right:100px}
+    20%{top:0; right:200px}
+    25%{top:0; right:250px}
+    40%{background-color: blue; top:150; right: 250px}
+    50%{top: 250px;; right: 250px}
+    60%{top: 250px; right:200px}
+    70%{border-radius: 50%; top: 250px; right: 100px}
+    80%{top:250; right: 0px}
+    90%{top: 100px; right: 0px}
+    100%{top:0; right: 0px}
+
+}

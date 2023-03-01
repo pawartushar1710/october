@@ -1,0 +1,56 @@
+
+.mainDiv {
+    border: 3px solid rgb(17, 17, 151);
+
+    /* display - creat flexible container */
+display: flex;
+height: 400px;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+top: 10px;
+left: 10px; 
+}
+
+.childDiv {
+
+ height: 100px;
+ width: 80px;
+ background-color: blueviolet;
+}
+.FirstDiv {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.secondDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    }
+
+    .thirdDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 80px;
+        left: 80px;
+        }
+        .forthDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            }
+         
+
+    
+

@@ -1,0 +1,103 @@
+<!--  -->
+
+<html>
+
+<head>
+
+<link rel="stylesheet" href="Signup.css">
+
+    <style>
+        /* id selector */
+       #SignUpHeader {
+font-size: 25px;
+color: brown;
+       }
+       /* tagname selector */
+       label {
+        background-color:lightblue;
+       }
+       #h4 {
+        font-size: 20px;
+       }
+    </style>
+    
+
+</head>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Roman_Reigns_Tribute_to_the_Troops_2016.jpg/1200px-Roman_Reigns_Tribute_to_the_Troops_2016.jpg" 
+height="300px"
+width="300px"
+alt="roman r">
+
+<body>
+    <h2  class="bg-green" id="SignUpHeader">Please SignUp</h2>
+    <!-- inline css -->
+    <h4 id="h4"style="color: red;">Its Quick And Easy</h4>
+
+
+<!-- self closin tags -->
+<form>
+    <label for="fname"> *First Name</label>
+   &nbsp;<label for="lname">  *Last Name</label>
+<br />
+<input type="text" name="fname" placeholder="First Name"/>
+<input type="text" name="lname" placeholder="Last Name"/>
+
+<br />
+<label for="Email">Enter E mail</label>
+<br />
+<input type="email" name="email" placeholder="E mail"/>
+<br />
+<label for="password">*Enter Password</label>
+<br />
+<input type="password" name="email" placeholder="Password"/>
+<br />
+<label for="dob">Date Of Birth</label>
+<br />
+<input type="date" name="dob">
+<br />
+<label for="mobile"> Mobile Pnone</label>
+<br />
+<input type="number" name="mobile">
+<br />
+<label for="gender">Gender</label>
+<br />
+<input type="radio" name="gender"><label for="gender">Male</label>
+<input type="radio" name="gender"><label for="gender">Female</label>
+<input type="radio" name="gender"><label for="gender">Others</label>
+
+<br />
+<!-- text area --multiple text -->
+
+<label for="address"> Address</label>
+<br />
+<textarea name="address"  cols="9" placeholder="address" rows="3"></textarea>
+<br />
+
+<label for="pincode">PIN</label>
+<br />
+<input type="text" name="pincode">
+<br />
+<label for="city">Select Your City</label>
+<select name="city">
+    <option value="-1">Select City</option>
+    <option value="0">Mumbai</option>
+    <option value="1">Delhi</option>
+    <option value="2">Benglore</option>
+    <option value="3">New York</option>
+    <option value="4">Pune</option>
+</select>
+<br />
+<input  type="checkbox" name="tc">
+<label for="tc">Terms & Conditions</label>
+ <br />
+ 
+<!-- Buttons -->
+<!-- <input type="button" name="save" value="SignUp"> -->
+<button class="bg-green" type="reset">Clear</button>
+
+</form>
+
+</body>
+
+</html>
